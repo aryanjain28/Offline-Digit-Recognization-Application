@@ -44,7 +44,7 @@ def getResult(pixels):
 
     (xTrain, yTrain), (xTest, yTest) = keras.datasets.mnist.load_data(path='mnist.npz')
     xTest = tf.keras.utils.normalize(xTest, axis=1)
-    model = keras.models.load_model('/home/aryan/Desktop/Pygame/digitRecognizerModel.h5')
+    model = keras.models.load_model('/home/aryan/Desktop/Offline Digit Recognization/digitRecognizerModel.h5')
 
     xTest[0] = pixels
     p = model.predict(xTest)
