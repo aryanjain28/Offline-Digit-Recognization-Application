@@ -1,4 +1,4 @@
-# Offline-Digit-Recognization-Application
+# Offline Digit Recognization Application
 
 A complete offline application built using python libraries that uses neural network in order to predict the digit drawn over screen.
 
